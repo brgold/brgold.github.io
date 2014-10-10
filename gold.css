@@ -1,0 +1,77 @@
+@charset "UTF-8";
+.name {
+	display: inline-block;
+	float: left;
+	padding-right: 2em;
+}
+header nav {
+	display: inline-block;
+	margin-left: auto;
+	float: right;
+}
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-image: -webkit-linear-gradient(300deg,rgba(255,255,255,1.00) 0%,rgba(236,254,255,1.00) 100%);
+	background-image: -moz-linear-gradient(300deg,rgba(255,255,255,1.00) 0%,rgba(236,254,255,1.00) 100%);
+	background-image: -o-linear-gradient(300deg,rgba(255,255,255,1.00) 0%,rgba(236,254,255,1.00) 100%);
+	background-image: linear-gradient(150deg,rgba(255,255,255,1.00) 0%,rgba(236,254,255,1.00) 100%);
+}
+#wrapper {
+	width: 720px;
+	margin: 0 auto;
+	display: block;
+	clear: both;
+}
+header nav a {
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: small;
+}
+header {
+	padding-top: 5px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #CCCCCC;
+	right: auto;
+	left: 0px;
+	width: 100%;
+	display: block;
+}
+#main-content {
+	clear: both;
+}
+#main {
+	float: left;
+	margin: 5px 0;
+	clear: both;
+}
+footer span {
+	font-size: x-small;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+h1 {
+	font-size: x-large;
+}
+h2 {
+	font-size: large;
+}
+h3 {
+	font-size: medium;
+}
+#author {
+	float: left;
+	display: inline-block;
+}
+#copyright {
+	float: right;
+}
+footer {
+	clear: both;
+}
+a {
+	color: #FF5E5E;
+	text-decoration: none;
+}
