@@ -23,8 +23,7 @@ body {
 	clear: both;
 }
 header nav a {
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-left: 2em;
 	font-size: small;
 }
 header {
@@ -74,4 +73,7 @@ footer {
 a {
 	color: #FF5E5E;
 	text-decoration: none;
+}
+a:hover {
+	color: #000000;
 }
