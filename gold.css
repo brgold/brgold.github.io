@@ -44,6 +44,7 @@ header {
 	float: left;
 	margin: 5px 0;
 	clear: both;
+	width: 100%;
 }
 footer span {
 	font-size: x-small;
