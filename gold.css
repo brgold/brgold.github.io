@@ -81,3 +81,6 @@ a:hover {
 .name a {
 	color: #000000;
 }
+section {
+	margin: 5px 0;
+}
