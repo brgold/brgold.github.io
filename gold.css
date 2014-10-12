@@ -9,7 +9,7 @@ header nav {
 	float: right;
 }
 body {
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	background-image: -webkit-linear-gradient(300deg,rgba(255,255,255,1.00) 0%,rgba(236,254,255,1.00) 100%);
 	background-image: -moz-linear-gradient(300deg,rgba(255,255,255,1.00) 0%,rgba(236,254,255,1.00) 100%);
 	background-image: -o-linear-gradient(300deg,rgba(255,255,255,1.00) 0%,rgba(236,254,255,1.00) 100%);
@@ -82,4 +82,16 @@ a:hover {
 }
 section {
 	margin: 5px 0;
+}
+.landing-image {
+	position: relative;
+}
+.landing-image span {
+	position: absolute;
+	left: auto;
+	right: 3em;
+	bottom: 3em;
+	color: #FFFFFF;
+	padding: 10px;
+	background-color: rgba(100,100,100,0.25);
 }
