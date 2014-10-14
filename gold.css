@@ -94,4 +94,8 @@ section {
 	color: #FFFFFF;
 	padding: 10px;
 	background-color: rgba(100,100,100,0.25);
+	max-width: 30em;
+}
+section h1 {
+	margin: 5px 0;
 }
