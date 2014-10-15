@@ -120,3 +120,10 @@ ul {
 #project-examples li {
 	margin: 0.5em 0;
 }
+#publications {
+	list-style-type: none;
+	padding-left: 0px;
+}
+#publications li {
+	margin: 0.5em 0;
+}
