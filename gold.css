@@ -121,13 +121,3 @@ p:last-of-type {
 ul {
 	margin: 5px 0;
 }
-.bio img {
-	float: left;
-	margin-right: 5px;
-	clear: none;
-	display: inline-block;
-}
-.bio article span {
-	float: left;
-	display: inline-block;
-} 
