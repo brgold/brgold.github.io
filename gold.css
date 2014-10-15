@@ -130,6 +130,6 @@ ul {
 .bio article div {
 	margin: 5px 0;
 }
-article div h2, article div h3 {
+.bio article div h2, .bio article div h3 {
 	margin: 0;
 }
