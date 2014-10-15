@@ -120,4 +120,6 @@ p:last-of-type {
 }
 ul {
 	margin: 5px 0;
+}#project-examples li {
+	margin: 0.5em 0;
 }
