@@ -69,6 +69,8 @@ h3 {
 }
 footer {
 	clear: both;
+	padding: 5px 0;
+	border-top: 1px solid #CCCCCC;
 }
 a {
 	color: #FF5E5E;
@@ -98,7 +100,6 @@ section {
 	max-width: 30em;
 }
 section h1 {
-	margin: 0;
 }
 p {
 	margin-top: 0.5em;
@@ -120,6 +121,7 @@ p:last-of-type {
 }
 ul {
 	margin: 5px 0;
-}#project-examples li {
+}
+#project-examples li {
 	margin: 0.5em 0;
 }
