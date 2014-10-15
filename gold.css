@@ -49,7 +49,7 @@ footer span {
 	font-size: x-small;
 }
 h1, h2, h3, h4, h5, h6 {
-	margin: 0;
+	margin: 5px 0;
 }
 h1 {
 	font-size: x-large;
@@ -94,8 +94,40 @@ section {
 	color: #FFFFFF;
 	padding: 10px;
 	background-color: rgba(100,100,100,0.25);
+	margin: 0px;
 	max-width: 30em;
 }
 section h1 {
+	margin: 0;
+}
+p {
+	margin-top: 0.5em;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0.5em;
+}
+p:first-of-type {
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0.5em;
+}
+p:last-of-type {
+	margin-top: 0.5em;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+ul {
 	margin: 5px 0;
+}
+.bio img {
+	float: left;
+	margin-right: 5px;
+	clear: none;
+	display: inline-block;
+}
+.bio article span {
+	float: left;
+	display: inline-block;
 }
