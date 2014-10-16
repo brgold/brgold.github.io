@@ -98,7 +98,7 @@ section {
 	right: 3em;
 	bottom: 3em;
 	color: #FFFFFF;
-	padding: 10px;
+	padding: 5px;
 	background-color: rgba(100,100,100,0.25);
 	margin: 0px;
 	max-width: 30em;
@@ -128,8 +128,14 @@ ul {
 	margin: 0.5em 0;
 }
 .bio article div {
-	margin: 5px 0;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 5px;
 }
 .bio article div h2, .bio article div h3 {
 	margin: 0;
+}
+.bio article {
+	margin: 5px 0;
 }
