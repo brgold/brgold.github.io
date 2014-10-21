@@ -149,12 +149,13 @@ footer a {
 }
 #footer-links {
 	float: left;
+	line-height: 100%;
 }
 #footer-info {
 	float: right;
 	font-size: small;
 	text-align: right;
-	line-height: 1.25em;
+	line-height: 125%;
 }
 #footer-links a {
 	display: block;
