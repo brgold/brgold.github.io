@@ -9,16 +9,13 @@ header nav {
 	float: right;
 }
 body {
+	margin: 0;
 	font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	background-image: -webkit-linear-gradient(300deg,rgba(255,255,255,1.00) 0%,rgba(236,254,255,1.00) 100%);
-	background-image: -moz-linear-gradient(300deg,rgba(255,255,255,1.00) 0%,rgba(236,254,255,1.00) 100%);
-	background-image: -o-linear-gradient(300deg,rgba(255,255,255,1.00) 0%,rgba(236,254,255,1.00) 100%);
-	background-image: linear-gradient(150deg,rgba(255,255,255,1.00) 0%,rgba(236,254,255,1.00) 100%);
 }
-#wrapper {
+.wrapper {
 	width: 960px;
-	margin: 5px auto;
 	display: block;
+	margin: 0 auto;
 	clear: both;
 }
 header nav a {
@@ -26,22 +23,27 @@ header nav a {
 	font-size: small;
 }
 header {
-	padding-top: 5px;
-	padding-right: 0;
-	padding-left: 0;
-	padding-bottom: 5px;
 	border-bottom: 1px solid #CCCCCC;
-	right: auto;
-	left: 0px;
 	width: 100%;
 	display: block;
+	position: fixed;
+	margin: 0 auto;
+	z-index: 10;
+	left: 0px;
+	right: 0px;
+	top: auto;
+	bottom: auto;
+	padding: 5px 0;
+	background-color: #FFFFFF;
+	clear: both;
+	opacity: 0.95;
 }
 #main-content {
 	clear: both;
 }
 #main {
 	float: left;
-	margin: 5px 0;
+	margin: 10px 0;
 	clear: both;
 	width: 100%;
 }
@@ -64,17 +66,13 @@ h2 {
 h3 {
 	font-size: medium;
 }
-#author {
-	float: left;
-	display: inline-block;
-}
-#copyright {
-	float: right;
-}
 footer {
 	clear: both;
+	width: 100%;
+	display: block;
+	background-color: #AAAAAA;
 	padding: 5px 0;
-	border-top: 1px solid #CCCCCC;
+	color: #FFFFFF;
 }
 a {
 	color: #FF5E5E;
@@ -138,4 +136,27 @@ ul {
 }
 .bio article {
 	margin: 5px 0;
+}
+#header-links {
+	margin: 0 auto;
+	width: 960px;
+}
+footer a {
+	color: #FFFFFF;
+}
+#header-wrapper {
+	height: 30px;
+}
+#footer-links {
+	float: left;
+}
+#footer-info {
+	float: right;
+	font-size: small;
+	text-align: right;
+	line-height: 1.25em;
+}
+#footer-links a {
+	display: block;
+	font-size: small;
 }
