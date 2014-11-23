@@ -85,7 +85,10 @@ a:hover {
 	color: #000000;
 }
 section {
-	margin: 5px 0;
+	margin: 1em 0;
+}
+section:first-of-type {
+	margin: 0em 0em;
 }
 .landing-image {
 	position: relative;
