@@ -103,6 +103,14 @@ section:first-of-type {
 	bottom: 3em;
 	right: 3em;
 }
+.landing-image a
+{
+	color:#FFFFFF;
+}
+.landing-image a:hover
+{
+	color:#CCCCCC;
+}
 
 p {
 	margin-top: 0em;
@@ -161,4 +169,7 @@ footer a {
 #footer-links a {
 	display: block;
 	font-size: small;
+}
+.landing-image span p {
+	margin: 0.5em 0;
 }
