@@ -7,12 +7,14 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
   $(document).ready(function() {
-	  $('#strategy').css('visibility', 'hidden');
-	  $('#scientific').css('visibility', 'hidden');
-	  
-	  $('#strategy').css('visibility', 'visible').hide().fadeIn(800, function() {
-		  $('#scientific').css('visibility', 'visible').hide().fadeIn(800);
-	  });
+	  if ( document.location.href.indexOf('#learn-more') > -1 ) {
+		$('#strategy').css('visibility', 'hidden');
+		$('#scientific').css('visibility', 'hidden');
+		
+		$('#strategy').css('visibility', 'visible').hide().fadeIn(800, function() {
+			$('#scientific').css('visibility', 'visible').hide().fadeIn(800);
+		});
+	  }
   });
 </script>
 <script>
